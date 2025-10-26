@@ -7,10 +7,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/compute/v2/limits"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/compute/v2/limits"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestLimits(t *testing.T) {

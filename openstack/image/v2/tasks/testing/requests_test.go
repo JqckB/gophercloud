@@ -7,10 +7,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2/openstack/image/v2/tasks"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	"github.com/gophercloud/gophercloud/v2/testhelper/client"
+	"github.com/JqckB/gophercloud/v2/openstack/image/v2/tasks"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/testhelper/client"
 )
 
 func TestList(t *testing.T) {

@@ -3,8 +3,8 @@ package bgpvpns
 import (
 	"net/url"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/pagination"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/pagination"
 )
 
 const (

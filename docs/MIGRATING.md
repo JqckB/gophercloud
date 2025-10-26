@@ -9,15 +9,15 @@ another.
 
 ### Change import path
 
-The module is now named `github.com/gophercloud/gophercloud/v2`. Consequently,
+The module is now named `github.com/JqckB/gophercloud/v2`. Consequently,
 you need to update all your imports:
 
 ```diff
 import (
 -	"github.com/gophercloud/gophercloud"
--	"github.com/gophercloud/gophercloud/pagination"
-+	"github.com/gophercloud/gophercloud/v2"
-+	"github.com/gophercloud/gophercloud/v2/pagination"
+-	"github.com/JqckB/gophercloud/pagination"
++	"github.com/JqckB/gophercloud/v2"
++	"github.com/JqckB/gophercloud/v2/pagination"
 )
 ```
 
@@ -28,7 +28,7 @@ also need to update those imports:
 import (
 -	"github.com/gophercloud/gophercloud"
 -	serverutils "github.com/gophercloud/utils/openstack/compute/v2/servers"
-+	"github.com/gophercloud/gophercloud/v2"
++	"github.com/JqckB/gophercloud/v2"
 +	serverutils "github.com/gophercloud/utils/v2/openstack/compute/v2/servers"
 )
 ```
@@ -434,8 +434,8 @@ this is no longer the case with Gophercloud v2.
 The `imageservice` service is renamed to simply `image` to conform with the other services.
 
 If you previously imported from
-`github.com/gophercloud/gophercloud/v2/openstack/imageservice/`, you now need
-to import from `github.com/gophercloud/gophercloud/v2/openstack/image/`.
+`github.com/JqckB/gophercloud/v2/openstack/imageservice/`, you now need
+to import from `github.com/JqckB/gophercloud/v2/openstack/image/`.
 
 Additionally, `NewImageServiceV2()` is renamed `NewImageV2()`.
 
@@ -517,7 +517,7 @@ After running the script, your code may not compile. The idea is that at this po
 # Adjust the blockstorage version appropriately
 blockstorageversion=v3
 
-openstack='github.com/gophercloud/gophercloud/openstack'
+openstack='github.com/JqckB/gophercloud/openstack'
 openstack_utils='github.com/gophercloud/utils/openstack'
 find . -type f -name '*.go' -not -path "*/vendor/*" -exec sed -i '
     /^import ($/,/^)$/ {
@@ -594,7 +594,7 @@ find . -type f -name '*.go' -not -path "*/vendor/*" -exec sed -i '
 
         # 5: Update to v2, except for packages that were removed without replacement
         s|github.com/gophercloud/utils|github.com/gophercloud/utils/v2|g
-        /\(\/openstack\/blockstorage\/v1\|\/openstack\/networking\/v2\/extensions\/lbaas\|\/openstack\/networking\/v2\/extensions\/lbaas_v2\|\/openstack\/networking\/v2\/extensions\/fwaas\|\/openstack\/cdn\|\/openstack\/clustering\)/! s|github.com/gophercloud/gophercloud|github.com/gophercloud/gophercloud/v2|g
+        /\(\/openstack\/blockstorage\/v1\|\/openstack\/networking\/v2\/extensions\/lbaas\|\/openstack\/networking\/v2\/extensions\/lbaas_v2\|\/openstack\/networking\/v2\/extensions\/fwaas\|\/openstack\/cdn\|\/openstack\/clustering\)/! s|github.com/gophercloud/gophercloud|github.com/JqckB/gophercloud/v2|g
     }
 
     /^)$/,$ {

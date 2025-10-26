@@ -6,10 +6,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/v2/internal/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/qos/ruletypes"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	networking "github.com/JqckB/gophercloud/v2/internal/acceptance/openstack/networking/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/qos/ruletypes"
 )
 
 func TestRuleTypes(t *testing.T) {

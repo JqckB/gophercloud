@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"testing"
 
-	fake "github.com/gophercloud/gophercloud/v2/openstack/networking/v2/common"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/taas/tapmirrors"
-	"github.com/gophercloud/gophercloud/v2/pagination"
+	fake "github.com/JqckB/gophercloud/v2/openstack/networking/v2/common"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/taas/tapmirrors"
+	"github.com/JqckB/gophercloud/v2/pagination"
 
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestCreate(t *testing.T) {

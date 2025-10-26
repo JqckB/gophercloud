@@ -1,6 +1,6 @@
 package agents
 
-import "github.com/gophercloud/gophercloud/v2"
+import "github.com/JqckB/gophercloud/v2"
 
 const resourcePath = "agents"
 const dhcpNetworksResourcePath = "dhcp-networks"

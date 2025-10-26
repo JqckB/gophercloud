@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/sharedfilesystems/v2/sharetypes"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/sharedfilesystems/v2/sharetypes"
 )
 
 // CreateShareType will create a share type with a random name. An

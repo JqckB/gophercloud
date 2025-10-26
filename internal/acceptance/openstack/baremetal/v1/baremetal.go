@@ -5,12 +5,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/baremetal/v1/allocations"
-	"github.com/gophercloud/gophercloud/v2/openstack/baremetal/v1/nodes"
-	"github.com/gophercloud/gophercloud/v2/openstack/baremetal/v1/portgroups"
-	"github.com/gophercloud/gophercloud/v2/openstack/baremetal/v1/ports"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/baremetal/v1/allocations"
+	"github.com/JqckB/gophercloud/v2/openstack/baremetal/v1/nodes"
+	"github.com/JqckB/gophercloud/v2/openstack/baremetal/v1/portgroups"
+	"github.com/JqckB/gophercloud/v2/openstack/baremetal/v1/ports"
 )
 
 // CreateNode creates a basic node with a randomly generated name.

@@ -6,10 +6,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/trunk_details"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/ports"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	"github.com/gophercloud/gophercloud/v2/testhelper/client"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/trunk_details"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/ports"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/testhelper/client"
 )
 
 func TestServerWithUsageExt(t *testing.T) {

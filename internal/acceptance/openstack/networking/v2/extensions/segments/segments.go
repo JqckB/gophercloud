@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/segments"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/segments"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func CreateSegment(t *testing.T, client *gophercloud.ServiceClient, networkID string) (*segments.Segment, error) {

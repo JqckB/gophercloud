@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/v2/internal/acceptance/openstack/networking/v2"
-	spk "github.com/gophercloud/gophercloud/v2/internal/acceptance/openstack/networking/v2/extensions/bgp/speakers"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/agents"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/bgp/speakers"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	networking "github.com/JqckB/gophercloud/v2/internal/acceptance/openstack/networking/v2"
+	spk "github.com/JqckB/gophercloud/v2/internal/acceptance/openstack/networking/v2/extensions/bgp/speakers"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/agents"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/bgp/speakers"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestAgentsCRUD(t *testing.T) {

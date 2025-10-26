@@ -3,8 +3,8 @@ package messages
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/pagination"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/pagination"
 )
 
 // Delete will delete the existing Message with the provided ID.

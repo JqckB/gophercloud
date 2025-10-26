@@ -1,8 +1,8 @@
 package qos
 
 import (
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/pagination"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/pagination"
 )
 
 // QoS contains all the information associated with an OpenStack QoS specification.

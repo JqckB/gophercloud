@@ -3,7 +3,7 @@ package apiversions
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2"
 )
 
 // List lists all the API versions available to end users.

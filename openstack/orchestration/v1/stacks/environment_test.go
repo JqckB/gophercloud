@@ -3,7 +3,7 @@ package stacks
 import (
 	"testing"
 
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestEnvironmentValidation(t *testing.T) {

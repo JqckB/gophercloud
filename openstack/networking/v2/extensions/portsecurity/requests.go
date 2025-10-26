@@ -1,8 +1,8 @@
 package portsecurity
 
 import (
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/networks"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/ports"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/networks"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/ports"
 )
 
 // PortCreateOptsExt adds port security options to the base ports.CreateOpts.

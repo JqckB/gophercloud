@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/baremetal/inventory"
-	"github.com/gophercloud/gophercloud/v2/openstack/baremetalintrospection/v1/introspection"
-	"github.com/gophercloud/gophercloud/v2/pagination"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/openstack/baremetal/inventory"
+	"github.com/JqckB/gophercloud/v2/openstack/baremetalintrospection/v1/introspection"
+	"github.com/JqckB/gophercloud/v2/pagination"
 )
 
 type nodeResult struct {

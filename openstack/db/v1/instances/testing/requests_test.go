@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	db "github.com/gophercloud/gophercloud/v2/openstack/db/v1/databases"
-	"github.com/gophercloud/gophercloud/v2/openstack/db/v1/instances"
-	"github.com/gophercloud/gophercloud/v2/openstack/db/v1/users"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	"github.com/gophercloud/gophercloud/v2/testhelper/client"
+	db "github.com/JqckB/gophercloud/v2/openstack/db/v1/databases"
+	"github.com/JqckB/gophercloud/v2/openstack/db/v1/instances"
+	"github.com/JqckB/gophercloud/v2/openstack/db/v1/users"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/testhelper/client"
 )
 
 func TestCreate(t *testing.T) {

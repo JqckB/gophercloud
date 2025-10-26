@@ -4,10 +4,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/openstack/identity/v3/registeredlimits"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	"github.com/gophercloud/gophercloud/v2/testhelper/client"
+	"github.com/JqckB/gophercloud/v2/openstack/identity/v3/registeredlimits"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/testhelper/client"
 )
 
 func TestListRegisteredLimits(t *testing.T) {

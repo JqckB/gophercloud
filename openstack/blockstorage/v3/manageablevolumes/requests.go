@@ -3,7 +3,7 @@ package manageablevolumes
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2"
 )
 
 // ManageExistingOptsBuilder allows extentions to add additional parameters to the ManageExisting request.

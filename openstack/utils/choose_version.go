@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/gophercloud/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2"
 )
 
 // Version is a supported API version, corresponding to a vN package within the appropriate service.

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestToStringKeys(t *testing.T) {

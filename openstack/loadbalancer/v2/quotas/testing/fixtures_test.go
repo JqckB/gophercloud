@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/openstack/loadbalancer/v2/quotas"
-	fake "github.com/gophercloud/gophercloud/v2/openstack/networking/v2/common"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/openstack/loadbalancer/v2/quotas"
+	fake "github.com/JqckB/gophercloud/v2/openstack/networking/v2/common"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 const GetResponseRaw_1 = `

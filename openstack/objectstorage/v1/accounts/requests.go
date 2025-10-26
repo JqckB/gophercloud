@@ -3,7 +3,7 @@ package accounts
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2"
 )
 
 // GetOptsBuilder allows extensions to add additional headers to the Get

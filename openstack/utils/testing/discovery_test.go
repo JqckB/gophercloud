@@ -5,9 +5,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/utils"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/openstack/utils"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestGetServiceVersions(t *testing.T) {

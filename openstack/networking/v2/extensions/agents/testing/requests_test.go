@@ -7,11 +7,11 @@ import (
 	"testing"
 	"time"
 
-	fake "github.com/gophercloud/gophercloud/v2/openstack/networking/v2/common"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/agents"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/layer3/routers"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	fake "github.com/JqckB/gophercloud/v2/openstack/networking/v2/common"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/agents"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/layer3/routers"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestList(t *testing.T) {

@@ -6,10 +6,10 @@ import (
 	"slices"
 	"strconv"
 
-	"github.com/gophercloud/gophercloud/v2"
-	tokens2 "github.com/gophercloud/gophercloud/v2/openstack/identity/v2/tokens"
-	tokens3 "github.com/gophercloud/gophercloud/v2/openstack/identity/v3/tokens"
-	"github.com/gophercloud/gophercloud/v2/openstack/utils"
+	"github.com/JqckB/gophercloud/v2"
+	tokens2 "github.com/JqckB/gophercloud/v2/openstack/identity/v2/tokens"
+	tokens3 "github.com/JqckB/gophercloud/v2/openstack/identity/v3/tokens"
+	"github.com/JqckB/gophercloud/v2/openstack/utils"
 )
 
 var versionedServiceTypeAliasRegexp = regexp.MustCompile(`^.*v(\d)$`)

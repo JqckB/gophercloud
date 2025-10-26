@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/gophercloud/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2"
 	yaml "gopkg.in/yaml.v2"
 )
 

@@ -1,6 +1,6 @@
 package remoteconsoles
 
-import "github.com/gophercloud/gophercloud/v2"
+import "github.com/JqckB/gophercloud/v2"
 
 type commonResult struct {
 	gophercloud.Result

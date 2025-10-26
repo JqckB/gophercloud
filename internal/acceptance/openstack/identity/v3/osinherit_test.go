@@ -6,13 +6,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	"github.com/gophercloud/gophercloud/v2/openstack/identity/v3/domains"
-	"github.com/gophercloud/gophercloud/v2/openstack/identity/v3/groups"
-	"github.com/gophercloud/gophercloud/v2/openstack/identity/v3/osinherit"
-	"github.com/gophercloud/gophercloud/v2/openstack/identity/v3/roles"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/openstack/identity/v3/domains"
+	"github.com/JqckB/gophercloud/v2/openstack/identity/v3/groups"
+	"github.com/JqckB/gophercloud/v2/openstack/identity/v3/osinherit"
+	"github.com/JqckB/gophercloud/v2/openstack/identity/v3/roles"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestInheritRolesAssignToUserOnProject(t *testing.T) {

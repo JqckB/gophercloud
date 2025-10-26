@@ -3,7 +3,7 @@ package testing
 import (
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/subnets"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/subnets"
 )
 
 const SubnetListResult = `

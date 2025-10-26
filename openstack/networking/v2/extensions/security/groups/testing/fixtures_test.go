@@ -3,8 +3,8 @@ package testing
 import (
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/security/groups"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/security/rules"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/security/groups"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/security/rules"
 )
 
 const SecurityGroupListResponse = `

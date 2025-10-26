@@ -4,16 +4,16 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/openstack/loadbalancer/v2/l7policies"
-	"github.com/gophercloud/gophercloud/v2/openstack/loadbalancer/v2/listeners"
-	"github.com/gophercloud/gophercloud/v2/openstack/loadbalancer/v2/monitors"
-	"github.com/gophercloud/gophercloud/v2/openstack/loadbalancer/v2/pools"
+	"github.com/JqckB/gophercloud/v2/openstack/loadbalancer/v2/l7policies"
+	"github.com/JqckB/gophercloud/v2/openstack/loadbalancer/v2/listeners"
+	"github.com/JqckB/gophercloud/v2/openstack/loadbalancer/v2/monitors"
+	"github.com/JqckB/gophercloud/v2/openstack/loadbalancer/v2/pools"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/loadbalancer/v2/loadbalancers"
-	fake "github.com/gophercloud/gophercloud/v2/openstack/loadbalancer/v2/testhelper"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/openstack/loadbalancer/v2/loadbalancers"
+	fake "github.com/JqckB/gophercloud/v2/openstack/loadbalancer/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestListLoadbalancers(t *testing.T) {

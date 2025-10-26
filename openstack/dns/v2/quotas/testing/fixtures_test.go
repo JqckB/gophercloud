@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	"github.com/gophercloud/gophercloud/v2/testhelper/client"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/testhelper/client"
 
-	"github.com/gophercloud/gophercloud/v2/openstack/dns/v2/quotas"
+	"github.com/JqckB/gophercloud/v2/openstack/dns/v2/quotas"
 )
 
 // List Output is a sample response to a List call.

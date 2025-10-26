@@ -4,13 +4,13 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/dns/v2/recordsets"
-	transferAccepts "github.com/gophercloud/gophercloud/v2/openstack/dns/v2/transfer/accept"
-	transferRequests "github.com/gophercloud/gophercloud/v2/openstack/dns/v2/transfer/request"
-	"github.com/gophercloud/gophercloud/v2/openstack/dns/v2/zones"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/dns/v2/recordsets"
+	transferAccepts "github.com/JqckB/gophercloud/v2/openstack/dns/v2/transfer/accept"
+	transferRequests "github.com/JqckB/gophercloud/v2/openstack/dns/v2/transfer/request"
+	"github.com/JqckB/gophercloud/v2/openstack/dns/v2/zones"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 // CreateRecordSet will create a RecordSet with a random name. An error will

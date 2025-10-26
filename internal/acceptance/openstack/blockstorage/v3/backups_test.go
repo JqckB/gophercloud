@@ -6,10 +6,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	"github.com/gophercloud/gophercloud/v2/openstack/blockstorage/v3/backups"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/openstack/blockstorage/v3/backups"
 
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestBackupsCRUD(t *testing.T) {

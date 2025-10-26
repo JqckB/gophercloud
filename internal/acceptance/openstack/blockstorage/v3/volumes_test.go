@@ -7,13 +7,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	compute "github.com/gophercloud/gophercloud/v2/internal/acceptance/openstack/compute/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/blockstorage/v3/snapshots"
-	"github.com/gophercloud/gophercloud/v2/openstack/blockstorage/v3/volumes"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	compute "github.com/JqckB/gophercloud/v2/internal/acceptance/openstack/compute/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/blockstorage/v3/snapshots"
+	"github.com/JqckB/gophercloud/v2/openstack/blockstorage/v3/volumes"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestVolumes(t *testing.T) {

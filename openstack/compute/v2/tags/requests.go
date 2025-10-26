@@ -3,7 +3,7 @@ package tags
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2"
 )
 
 // List all tags on a server.

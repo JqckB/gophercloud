@@ -3,7 +3,7 @@ package limits
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2"
 )
 
 // Get returns the limits about the currently scoped tenant.

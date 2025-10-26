@@ -13,8 +13,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/identity/v3/tokens"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/openstack/identity/v3/tokens"
 )
 
 const (

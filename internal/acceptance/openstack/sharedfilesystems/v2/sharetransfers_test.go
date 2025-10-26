@@ -6,11 +6,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 
-	"github.com/gophercloud/gophercloud/v2/openstack/sharedfilesystems/v2/sharetransfers"
+	"github.com/JqckB/gophercloud/v2/openstack/sharedfilesystems/v2/sharetransfers"
 )
 
 // minimal microversion for the share transfers

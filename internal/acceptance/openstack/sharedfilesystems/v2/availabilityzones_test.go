@@ -6,8 +6,8 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	"github.com/gophercloud/gophercloud/v2/openstack/sharedfilesystems/v2/availabilityzones"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/openstack/sharedfilesystems/v2/availabilityzones"
 )
 
 func TestAvailabilityZonesList(t *testing.T) {

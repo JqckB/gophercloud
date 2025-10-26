@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
 )
 
 func TestIsCurrentAbove(t *testing.T) {

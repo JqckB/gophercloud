@@ -1,6 +1,6 @@
 package backups
 
-import "github.com/gophercloud/gophercloud/v2"
+import "github.com/JqckB/gophercloud/v2"
 
 func createURL(c *gophercloud.ServiceClient) string {
 	return c.ServiceURL("backups")

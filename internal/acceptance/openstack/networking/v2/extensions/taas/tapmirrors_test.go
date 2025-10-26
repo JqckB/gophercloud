@@ -6,11 +6,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/v2/internal/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/taas/tapmirrors"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	networking "github.com/JqckB/gophercloud/v2/internal/acceptance/openstack/networking/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/taas/tapmirrors"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestTapMirrorList(t *testing.T) {

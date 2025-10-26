@@ -11,11 +11,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/objectstorage/v1/containers"
-	"github.com/gophercloud/gophercloud/v2/openstack/objectstorage/v1/objects"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/objectstorage/v1/containers"
+	"github.com/JqckB/gophercloud/v2/openstack/objectstorage/v1/objects"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 // numObjects is the number of objects to create for testing.

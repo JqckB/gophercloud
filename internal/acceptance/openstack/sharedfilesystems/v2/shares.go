@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/openstack/sharedfilesystems/v2/messages"
-	"github.com/gophercloud/gophercloud/v2/openstack/sharedfilesystems/v2/shares"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/openstack/sharedfilesystems/v2/messages"
+	"github.com/JqckB/gophercloud/v2/openstack/sharedfilesystems/v2/shares"
 )
 
 // CreateShare will create a share with a name, and a size of 1Gb. An

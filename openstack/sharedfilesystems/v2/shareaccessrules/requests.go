@@ -3,7 +3,7 @@ package shareaccessrules
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2"
 )
 
 // Get retrieves details about a share access rule.

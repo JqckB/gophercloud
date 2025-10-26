@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"net/http"
 
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func setupIdentityVersionHandler(fakeServer th.FakeServer) {

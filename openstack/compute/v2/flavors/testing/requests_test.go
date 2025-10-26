@@ -7,11 +7,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/ptr"
-	"github.com/gophercloud/gophercloud/v2/openstack/compute/v2/flavors"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	"github.com/gophercloud/gophercloud/v2/testhelper/client"
+	"github.com/JqckB/gophercloud/v2/internal/ptr"
+	"github.com/JqckB/gophercloud/v2/openstack/compute/v2/flavors"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/testhelper/client"
 )
 
 func TestListFlavors(t *testing.T) {

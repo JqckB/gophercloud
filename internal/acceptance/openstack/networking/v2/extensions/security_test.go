@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	networking "github.com/gophercloud/gophercloud/v2/internal/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/security/addressgroups"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/security/groups"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	networking "github.com/JqckB/gophercloud/v2/internal/acceptance/openstack/networking/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/security/addressgroups"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/security/groups"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestSecurityGroupsCreateUpdateDelete(t *testing.T) {

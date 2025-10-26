@@ -7,14 +7,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	networks "github.com/gophercloud/gophercloud/v2/internal/acceptance/openstack/networking/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/compute/v2/attachinterfaces"
-	"github.com/gophercloud/gophercloud/v2/openstack/compute/v2/servers"
-	"github.com/gophercloud/gophercloud/v2/openstack/compute/v2/tags"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	networks "github.com/JqckB/gophercloud/v2/internal/acceptance/openstack/networking/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/compute/v2/attachinterfaces"
+	"github.com/JqckB/gophercloud/v2/openstack/compute/v2/servers"
+	"github.com/JqckB/gophercloud/v2/openstack/compute/v2/tags"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestServersCreateDestroy(t *testing.T) {

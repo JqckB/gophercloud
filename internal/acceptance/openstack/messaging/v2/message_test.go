@@ -6,11 +6,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/messaging/v2/messages"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/messaging/v2/messages"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestListMessages(t *testing.T) {
@@ -38,7 +38,7 @@ func TestListMessages(t *testing.T) {
 	client, err = clients.NewMessagingV2Client(clientID)
 	th.AssertNoErr(t, err)
 
-	// We use limit=1 to regression test https://github.com/gophercloud/gophercloud/issues/3336
+	// We use limit=1 to regression test https://github.com/JqckB/gophercloud/issues/3336
 	listOpts := messages.ListOpts{Limit: 1}
 
 	pager := messages.List(client, createdQueueName, listOpts)

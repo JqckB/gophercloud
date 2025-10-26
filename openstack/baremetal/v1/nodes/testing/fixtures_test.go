@@ -6,10 +6,10 @@ import (
 	"testing"
 	"time"
 
-	inventorytest "github.com/gophercloud/gophercloud/v2/openstack/baremetal/inventory/testing"
-	"github.com/gophercloud/gophercloud/v2/openstack/baremetal/v1/nodes"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	"github.com/gophercloud/gophercloud/v2/testhelper/client"
+	inventorytest "github.com/JqckB/gophercloud/v2/openstack/baremetal/inventory/testing"
+	"github.com/JqckB/gophercloud/v2/openstack/baremetal/v1/nodes"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/testhelper/client"
 )
 
 // NodeListBody contains the canned body of a nodes.List response, without detail.

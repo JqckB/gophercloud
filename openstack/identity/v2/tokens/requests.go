@@ -3,7 +3,7 @@ package tokens
 import (
 	"context"
 
-	"github.com/gophercloud/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2"
 )
 
 // PasswordCredentialsV2 represents the required options to authenticate

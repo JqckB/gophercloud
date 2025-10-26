@@ -1,8 +1,8 @@
 package tapmirrors
 
 import (
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/pagination"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/pagination"
 )
 
 // TapMirror represents a Tap Mirror of the networking service taas extension

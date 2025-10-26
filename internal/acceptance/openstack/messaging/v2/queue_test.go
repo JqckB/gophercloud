@@ -6,11 +6,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/messaging/v2/queues"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/messaging/v2/queues"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestCRUDQueues(t *testing.T) {
@@ -74,7 +74,7 @@ func TestListQueues(t *testing.T) {
 	th.AssertNoErr(t, err)
 	defer DeleteQueue(t, client, secondQueueName)
 
-	// We use limit=1 to regression test https://github.com/gophercloud/gophercloud/issues/3336
+	// We use limit=1 to regression test https://github.com/JqckB/gophercloud/issues/3336
 	listOpts := queues.ListOpts{Limit: 1, Detailed: true}
 
 	pager := queues.List(client, listOpts)

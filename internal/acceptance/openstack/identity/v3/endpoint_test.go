@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/openstack/identity/v3/endpoints"
-	"github.com/gophercloud/gophercloud/v2/openstack/identity/v3/services"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/openstack/identity/v3/endpoints"
+	"github.com/JqckB/gophercloud/v2/openstack/identity/v3/services"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestEndpointsList(t *testing.T) {

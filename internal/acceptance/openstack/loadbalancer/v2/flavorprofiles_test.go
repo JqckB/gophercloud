@@ -6,12 +6,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/clients"
-	"github.com/gophercloud/gophercloud/v2/internal/acceptance/tools"
-	"github.com/gophercloud/gophercloud/v2/internal/ptr"
-	"github.com/gophercloud/gophercloud/v2/openstack/loadbalancer/v2/flavorprofiles"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/clients"
+	"github.com/JqckB/gophercloud/v2/internal/acceptance/tools"
+	"github.com/JqckB/gophercloud/v2/internal/ptr"
+	"github.com/JqckB/gophercloud/v2/openstack/loadbalancer/v2/flavorprofiles"
 
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestFlavorProfilesList(t *testing.T) {

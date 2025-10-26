@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2/openstack/db/v1/datastores"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
-	"github.com/gophercloud/gophercloud/v2/testhelper/client"
-	"github.com/gophercloud/gophercloud/v2/testhelper/fixture"
+	"github.com/JqckB/gophercloud/v2/openstack/db/v1/datastores"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2/testhelper/client"
+	"github.com/JqckB/gophercloud/v2/testhelper/fixture"
 )
 
 func TestList(t *testing.T) {

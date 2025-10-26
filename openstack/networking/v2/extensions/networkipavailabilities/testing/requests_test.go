@@ -6,11 +6,11 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/gophercloud/gophercloud/v2"
-	fake "github.com/gophercloud/gophercloud/v2/openstack/networking/v2/common"
-	"github.com/gophercloud/gophercloud/v2/openstack/networking/v2/extensions/networkipavailabilities"
-	"github.com/gophercloud/gophercloud/v2/pagination"
-	th "github.com/gophercloud/gophercloud/v2/testhelper"
+	"github.com/JqckB/gophercloud/v2"
+	fake "github.com/JqckB/gophercloud/v2/openstack/networking/v2/common"
+	"github.com/JqckB/gophercloud/v2/openstack/networking/v2/extensions/networkipavailabilities"
+	"github.com/JqckB/gophercloud/v2/pagination"
+	th "github.com/JqckB/gophercloud/v2/testhelper"
 )
 
 func TestList(t *testing.T) {
