@@ -255,7 +255,7 @@ Please use `v1.1.1` instead of `v1.1.0` to avoid cache issues.
 
 UPGRADE NOTES + PROMISE OF COMPATIBILITY
 
-* Introducing Gophercloud v1! Like for every other release so far, all clients will upgrade automatically with `go get -d github.com/gophercloud/gophercloud` unless the dependency is pinned in `go.mod`.
+* Introducing Gophercloud v1! Like for every other release so far, all clients will upgrade automatically with `go get -d github.com/JqckB/gophercloud` unless the dependency is pinned in `go.mod`.
 * Gophercloud v1 comes with a promise of compatibility: no breaking changes are expected to merge before v2.0.0.
 
 IMPROVEMENTS

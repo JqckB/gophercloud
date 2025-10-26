@@ -28,7 +28,7 @@ breakthroughs on it so far.
 ### 2. Improving documentation
 
 Gophercloud's documentation is automatically generated from the source code
-and can be read online at [godoc.org](https://godoc.org/github.com/gophercloud/gophercloud).
+and can be read online at [godoc.org](https://godoc.org/github.com/JqckB/gophercloud).
 
 If you feel that a certain section could be improved - whether it's to clarify
 ambiguity, correct a technical mistake, or to fix a grammatical error - please
@@ -68,13 +68,13 @@ way than just downloading it. Here are the basic instructions:
 get dependencies for unit and acceptance tests.
 
    ```bash
-   go get -tags "fixtures acceptance" github.com/gophercloud/gophercloud
+   go get -tags "fixtures acceptance" github.com/JqckB/gophercloud
    ```
 
 2. Move into the directory that houses your local repository:
 
    ```bash
-   cd ${GOPATH}/src/github.com/gophercloud/gophercloud
+   cd ${GOPATH}/src/github.com/JqckB/gophercloud
    ```
 
 3. Fork the `gophercloud/gophercloud` repository and update your remote refs. You

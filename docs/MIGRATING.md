@@ -14,7 +14,7 @@ you need to update all your imports:
 
 ```diff
 import (
--	"github.com/gophercloud/gophercloud"
+-	"github.com/JqckB/gophercloud"
 -	"github.com/JqckB/gophercloud/pagination"
 +	"github.com/JqckB/gophercloud/v2"
 +	"github.com/JqckB/gophercloud/v2/pagination"
@@ -26,7 +26,7 @@ also need to update those imports:
 
 ```diff
 import (
--	"github.com/gophercloud/gophercloud"
+-	"github.com/JqckB/gophercloud"
 -	serverutils "github.com/gophercloud/utils/openstack/compute/v2/servers"
 +	"github.com/JqckB/gophercloud/v2"
 +	serverutils "github.com/gophercloud/utils/v2/openstack/compute/v2/servers"
@@ -594,7 +594,7 @@ find . -type f -name '*.go' -not -path "*/vendor/*" -exec sed -i '
 
         # 5: Update to v2, except for packages that were removed without replacement
         s|github.com/gophercloud/utils|github.com/gophercloud/utils/v2|g
-        /\(\/openstack\/blockstorage\/v1\|\/openstack\/networking\/v2\/extensions\/lbaas\|\/openstack\/networking\/v2\/extensions\/lbaas_v2\|\/openstack\/networking\/v2\/extensions\/fwaas\|\/openstack\/cdn\|\/openstack\/clustering\)/! s|github.com/gophercloud/gophercloud|github.com/JqckB/gophercloud/v2|g
+        /\(\/openstack\/blockstorage\/v1\|\/openstack\/networking\/v2\/extensions\/lbaas\|\/openstack\/networking\/v2\/extensions\/lbaas_v2\|\/openstack\/networking\/v2\/extensions\/fwaas\|\/openstack\/cdn\|\/openstack\/clustering\)/! s|github.com/JqckB/gophercloud|github.com/JqckB/gophercloud/v2|g
     }
 
     /^)$/,$ {
