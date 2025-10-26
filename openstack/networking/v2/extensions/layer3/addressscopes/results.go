@@ -5,6 +5,12 @@ import (
 	"github.com/gophercloud/gophercloud/v2/pagination"
 )
 
+// APICDistinguishedNames represents the ACI/APIC distinguished names structure.
+type APICDistinguishedNames struct {
+	// VRF is the VRF value for address-scope
+	VRF string `json:"VRF,omitempty"`
+}
+
 type commonResult struct {
 	gophercloud.Result
 }
@@ -61,6 +67,9 @@ type AddressScope struct {
 
 	// Shared indicates whether this address-scope is shared across all projects.
 	Shared bool `json:"shared"`
+
+	// APICDistinguishedNames is used for ACI/APIC Opflex integration to add VRF information for address-scope.
+	APICDistinguishedNames *APICDistinguishedNames `json:"apic:distinguished_names,omitempty"`
 }
 
 // AddressScopePage stores a single page of AddressScopes from a List() API call.

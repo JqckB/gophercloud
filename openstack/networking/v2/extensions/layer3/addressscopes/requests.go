@@ -73,6 +73,12 @@ type CreateOptsBuilder interface {
 	ToAddressScopeCreateMap() (map[string]any, error)
 }
 
+// APICDistinguishedNames represents the ACI/APIC distinguished names structure.
+type APICDistinguishedNames struct {
+	// VRF is the VRF value for address-scope
+	VRF string `json:"VRF,omitempty"`
+}
+
 // CreateOpts specifies parameters of a new address-scope.
 type CreateOpts struct {
 	// Name is the human-readable name of the address-scope.
@@ -89,6 +95,9 @@ type CreateOpts struct {
 
 	// Shared indicates whether this address-scope is shared across all projects.
 	Shared bool `json:"shared,omitempty"`
+
+	// APICDistinguishedNames is used for ACI/APIC Opflex integration to add VRF information for address-scope.
+	APICDistinguishedNames *APICDistinguishedNames `json:"apic:distinguished_names,omitempty"`
 }
 
 // ToAddressScopeCreateMap constructs a request body from CreateOpts.
@@ -123,6 +132,9 @@ type UpdateOpts struct {
 
 	// Shared indicates whether this address-scope is shared across all projects.
 	Shared *bool `json:"shared,omitempty"`
+
+	// APICDistinguishedNames is used for ACI/APIC Opflex integration to add VRF information for address-scope.
+	APICDistinguishedNames *APICDistinguishedNames `json:"apic:distinguished_names,omitempty"`
 }
 
 // ToAddressScopeUpdateMap builds a request body from UpdateOpts.
